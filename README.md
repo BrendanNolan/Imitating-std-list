@@ -10,18 +10,18 @@ Take a deep breath and walk away. It's the worst idea you've ever had.
 # main.cpp 
 This is just a quick example program showing some of the functionality of the `Lst` class. It outputs the following:
 
-my_Lst.size(): 5
-10
-20
-30
-40
-50
-cpy_my_Lst.size(): 5
-10
-20
-30
-40
-50
-my_Lst.size(): 2
-20
-30
+my_Lst.size(): 5  
+10  
+20  
+30  
+40  
+50  
+cpy_my_Lst.size(): 5  
+10  
+20  
+30  
+40  
+50  
+my_Lst.size(): 2  
+20  
+30  
