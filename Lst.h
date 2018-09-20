@@ -62,7 +62,7 @@ class Lst
         {
             return !(*this == other);
         }
-        iterator &operator=(const iterator &other) { ptr = other.get_ptr(); }
+        iterator &operator=(const iterator &other) { ptr = other.get_ptr(); return *this; }
     };
 
     class const_iterator
@@ -97,10 +97,7 @@ class Lst
         {
             return !(*this == other);
         }
-        const_iterator &operator=(const const_iterator &other)
-        {
-            ptr = other.get_ptr();
-        }
+        const_iterator &operator=(const const_iterator &other) { ptr = other.get_ptr(); return *this; }
     };
 
     // END ITERATOR CLASSES
