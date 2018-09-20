@@ -8,4 +8,20 @@ revisit the `const_iterator`s. I'm sure much can be done to improve speed, useab
 Take a deep breath and walk away. It's the worst idea you've ever had. 
 
 # main.cpp 
-This is just a quick example program showing some of the functionality of the `Lst` class.
+This is just a quick example program showing some of the functionality of the `Lst` class. It outputs the following:
+
+my_Lst.size(): 5
+10
+20
+30
+40
+50
+cpy_my_Lst.size(): 5
+10
+20
+30
+40
+50
+my_Lst.size(): 2
+20
+30
