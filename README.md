@@ -1,4 +1,4 @@
-# List_container 
+# My (simplified version) of std::list 
 I'd always meant to try to do something like writing my own imitation of a standard library class so I gave it a few hours and came up 
 with a template class called `Lst` which has the basic functionality of the standard library `list` class, which I have called `Lst`. I implement all lists as 
 linked lists. My code leaves leaves plenty to be desired and I will come back and clean it up at some point. In particular, I need to 
