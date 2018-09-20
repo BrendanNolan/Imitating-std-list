@@ -33,6 +33,5 @@ int main()
     for (Lst<int>::size_type i = 0; i < my_Lst.size(); ++i)
         std::cout << *(it++) << std::endl;
 
-    std::cin.get(); // keeps output window open until you press Enter
-                    // (useful if writing code in Visual Studio)
+    std::cin.get(); 
 }
