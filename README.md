@@ -5,7 +5,7 @@ linked lists. My code leaves leaves plenty to be desired and I will come back an
 revisit the `const_iterator`s. I'm sure much can be done to improve speed, useability, functionality, everything. I'd be glad to hear from anyone about improvements or about rectifications of the many possible mistakes which may have crept in.
 
 # If you are tempted for some thoroughly bizarre reason to try to use this class instead of the standard library list class, then:
-Take a deep breath and walk away. It's the worst idea you've ever had. 
+don't. It would be a senseless and wreckless act.
 
 # main.cpp 
 This is just a quick example program showing some of the functionality of the `Lst` class. It outputs the following:
